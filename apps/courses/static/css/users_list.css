@@ -1,0 +1,175 @@
+#addUserBtn {
+    width: 56px;
+    height: 56px;
+    background:none;
+    border: none;
+    border-radius: 33px;
+    margin:0;
+    padding:0;
+    color: #fff;
+    background-color: #f24c3d;
+    font-size: 3em;
+    cursor: pointer;
+}
+
+#addUserBtn i {
+    position: relative;
+    top: 2px;
+}
+
+#contentData {
+    padding: 0 15% 0 15%;
+    height: 56px;
+    margin-bottom: 50px;
+}
+
+#contentData div {
+    line-height: 56px;
+    text-align: center;
+}
+
+#contentData form div button,
+#contentData form input {
+    height: 56px;
+    box-shadow:none;
+    -webkit-box-shadow:none; 
+    border-color:#cccccc;
+}
+
+#contentData form input {
+    border-radius: 0 33px 33px 0;
+    border-left: 0;
+    padding-left: 30px;
+}
+
+#contentData form div button {
+    width: 56px;
+    height: 56px;
+    border-radius: 33px;
+    position: relative;
+    left: 25px;
+    color: #fff;
+    font-size: 24px;
+    background-color: #64bf7c;
+    z-index: 3;
+}
+
+#contentData form div button i {
+    font-weight: 600;
+    top: 4px;
+}
+
+
+.add-on .form-control:focus {
+ box-shadow:none;
+ -webkit-box-shadow:none; 
+ border-color:#cccccc; 
+}
+
+#searchUserBlock {
+    padding-left: 0;
+}
+
+#addUserBlock {
+    padding-right: 0;
+}
+
+.dropdown-menu {
+    min-width: 0;
+}
+
+.bootstrap-select button {
+    height: 56px;
+    width: 100px !important;
+    border-radius: 33px;
+    font-size: 18px;
+}
+
+.bootstrap-select {
+    width: 100px !important;
+}
+.bootstrap-select:focus {
+    outline: 0 !important;
+}
+
+.col-md-12.container {
+    padding: 0 15% 0 15%;
+}
+
+.container thead {
+    color: #fff;
+    background-color: #575761;
+}
+
+.pagination {
+    padding: 0 0 0 41%;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+    border-radius: 50% !important;
+    margin: 0 5px;
+}
+
+#pagPrevBtn a,
+#pagNextBtn a {
+    color: #fff;
+    background-color: #64bf7c;
+    border-color: #64bf7c;
+}
+
+.pagination .active a {
+    background-color: #ddd;
+    border-color: #ddd;
+}
+.pagination .active a:hover {
+    background-color: #ddd;
+    border-color: #ddd;
+}
+
+.userActive {
+    color: green;
+}
+
+.userInactive {
+    color: red;
+}
+
+.removeUsersTableBtn {
+    width: 35px;
+    height: 35px;
+    background:none;
+    border: none;
+    border-radius: 50%;
+    margin:0;
+    padding:0;
+    color: #fff;
+    background-color: #f24c3d;
+    cursor: pointer;
+}
+
+.editUsersTableBtn {
+    width: 35px;
+    height: 35px;
+    background:none;
+    border: none;
+    border-radius: 50%;
+    margin:0;
+    padding:0;
+    color: #fff;
+    background-color: #64bf7c;
+    cursor: pointer;
+}
+
+.editUsersTableBtn i {
+    position: relative;
+    top: 1px;
+    left: 1px;
+    font-size: 20px;
+}
+
+.removeUsersTableBtn i {
+    position: relative;
+    top: 1px;
+    font-size: 20px;
+}

@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Courses List{% endblock %}
+{% block css_header %}
+    {{ block.super }}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/courses_list.css' %}">
+{% endblock %}
+
+{% block content %}
+    <div class="col-md-12 container">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th class="col-md-8">NAME</th>
+                    <th class="col-md-4">CODE</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for course in courses %}
+                <tr>
+                    <td>{{ course.0 }}</td>
+                    <td>{{ course.1 }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

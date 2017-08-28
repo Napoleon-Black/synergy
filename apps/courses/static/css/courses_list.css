@@ -1,0 +1,23 @@
+.col-md-12.container {
+    padding: 0 15% 0 15%;
+}
+
+.container thead {
+    color: #fff;
+    background-color: #575761;
+}
+
+.pagination {
+    padding: 0 0 0 41%;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+    border-radius: 50% !important;
+    margin: 0 5px;
+}
+
+.pagination .active a {
+    background-color: #64bf7c;
+    border-color: #64bf7c;
+}

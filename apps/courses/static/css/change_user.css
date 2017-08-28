@@ -1,0 +1,104 @@
+.content {
+    padding: 0 15% 0 15%;
+}
+
+#usersTextBlock {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#success_message {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 16px;
+    line-height: 28px;
+    width: 300px;
+    height: 56px;
+    border-radius: 33px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+#change_form {
+    background-color: white;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+#change_form .input-group {
+    width: 100%;
+}
+
+#change_form .input-group input,
+#change_form .input-group select,
+#change_form #saveUserBtn {
+    border-radius: 33px;
+}
+
+#change_form #saveUserBtn {
+    background-color: #64bf7c;
+    text-shadow: 1px 1px #808080;
+    width: 100px;
+}
+
+#change_form #saveUserBtn:hover {
+    background-color: #64bf37;
+}
+
+#backToUsersListBtn {
+    position: absolute;
+    left: 34px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #f24c3d;
+    border:none;
+    margin:0;
+    padding:0;
+}
+
+#backToUsersListBtn i {
+    position: relative;
+    right: 1px;
+}
+
+.form-group {
+    position: relative;
+}
+
+#coursesSelector{
+    width: 80%;
+}
+
+#addCourceForStudent {
+    position: relative;
+    top: 2px;
+    right: 68px;
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    background-color: #64bf37;
+    border:none;
+    margin:0;
+    padding:0;
+    border-radius: 50%;
+}
+
+#coursesTable {
+    position: relative;
+    left: 34%;
+    width: 32%;
+}
+
+.removeCourseTableBtn {
+    border:none;
+    background-color: transparent;
+    margin:0;
+    padding:0;
+    font-size: 20px;
+}
