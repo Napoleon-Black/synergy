@@ -41,10 +41,7 @@ $(document).ready(function() {
                   stringLength: {
                         min: 10, 
                         max: 13,
-                    },
-                  integer: {
-                    message: 'Please enter valid number'
-                  }
+                    }
                 }
             },
             mobile_no: {
