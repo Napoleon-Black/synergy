@@ -70,6 +70,9 @@ $(document).ready(function() {
                 success: function() {
                     $('#success_message').slideDown({ opacity: "show" }, "slow")
                     $('#register_form').data('bootstrapValidator').resetForm();
+                    setTimeout(function(){
+                        window.location.href = '/';
+                    }, 3000)
                 },
                 headers: {
                   'X-CSRFToken': csrf_token
