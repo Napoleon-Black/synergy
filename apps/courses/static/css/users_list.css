@@ -12,6 +12,10 @@
     cursor: pointer;
 }
 
+#addUserBtn:hover {
+    background-color: #ff5f51;
+}
+
 #addUserBtn i {
     position: relative;
     top: 2px;
@@ -42,7 +46,7 @@
     padding-left: 30px;
 }
 
-#contentData form div button {
+#searchUserBtn {
     width: 56px;
     height: 56px;
     border-radius: 33px;
@@ -54,7 +58,11 @@
     z-index: 3;
 }
 
-#contentData form div button i {
+#searchUserBtn:hover {
+    background-color: #84ce97;
+}
+
+#searchUserBtn i {
     font-weight: 600;
     top: 4px;
 }
@@ -148,6 +156,10 @@
     cursor: pointer;
 }
 
+.removeUsersTableBtn:hover {
+    background-color: #ff5f51;
+}
+
 .editUsersTableBtn {
     width: 35px;
     height: 35px;
@@ -159,6 +171,10 @@
     color: #fff;
     background-color: #64bf7c;
     cursor: pointer;
+}
+
+.editUsersTableBtn:hover {
+    background-color: #84ce97;
 }
 
 .editUsersTableBtn i {

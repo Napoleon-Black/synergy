@@ -46,7 +46,7 @@
 }
 
 #register_form button:hover {
-    background-color: #64bf37;
+    background-color: #84ce97;
 }
 
 #backToUsersListBtn {
@@ -60,6 +60,10 @@
     border:none;
     margin:0;
     padding:0;
+}
+
+#backToUsersListBtn:hover {
+    background-color: #ff5f51;
 }
 
 #backToUsersListBtn i {
