@@ -68,7 +68,7 @@ def create_user(request):
             user_mobile = user_mobile if user_mobile else None
 
             user_status = request.POST.get('status')
-            user_status = True if user_status else False
+            user_status = True if user_status == 'active' else False
 
             udb = UsersDB()
             udb.add_user([user_name, user_email, user_status,
@@ -93,7 +93,7 @@ def change_user(request, uid):
             user_mobile = user_mobile if user_mobile else None
 
             user_status = request.POST.get('status')
-            user_status = True if user_status else False
+            user_status = True if user_status == 'active' else False
             udb.change_user([uid, user_name, user_email, user_status,
                              user_phone, user_mobile])
             del udb

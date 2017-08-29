@@ -1,4 +1,10 @@
 from mysql.connector import MySQLConnection, Error
+from django.conf import settings
+
+MYSQL_HOST = settings.MYSQL_HOST
+MYSQL_USER = settings.MYSQL_USER
+MYSQL_PASS = settings.MYSQL_PASS
+MYSQL_DB = settings.MYSQL_DB
 
 
 def conn_cursor(func):
@@ -18,8 +24,8 @@ class UsersDB:
 
     def __init__(self):
         self._db_connection = MySQLConnection(
-            host='127.0.0.1', user='Users_user',
-            password='1511256515qQ', database='Users')
+            host=MYSQL_HOST, user=MYSQL_USER,
+            password=MYSQL_PASS, database=MYSQL_DB)
 
     def __del__(self):
         self._db_connection.close()

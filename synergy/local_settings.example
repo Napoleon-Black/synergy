@@ -1,0 +1,21 @@
+# SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = 'YOUR_SECRET_KEY'
+
+ALLOWED_HOSTS = ['YOUR_HOSTS']
+
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = True
+
+# Database
+# https://docs.djangoproject.com/en/1.11/ref/settings/#databases
+
+# Disable ORM
+DATABASES = {}
+
+TEST_RUNNER = 'testing.DatabaselessTestRunner'
+
+# MySQL Connector settings
+MYSQL_HOST = '127.0.0.1'
+MYSQL_USER = 'Users_user'
+MYSQL_PASS = 'YOUR_PASSWORD'
+MYSQL_DB = 'Users'
